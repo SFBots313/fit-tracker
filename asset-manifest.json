@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/fit-tracker/static/js/main.19897336.js",
+    "main.js": "/fit-tracker/static/js/main.c1708026.js",
     "index.html": "/fit-tracker/index.html",
-    "main.19897336.js.map": "/fit-tracker/static/js/main.19897336.js.map"
+    "main.c1708026.js.map": "/fit-tracker/static/js/main.c1708026.js.map"
   },
   "entrypoints": [
-    "static/js/main.19897336.js"
+    "static/js/main.c1708026.js"
   ]
 }
