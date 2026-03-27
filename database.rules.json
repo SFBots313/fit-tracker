@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "users": {
+      "$code": {
+        ".read": true,
+        ".write": true
+      }
+    }
+  }
+}
