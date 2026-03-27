@@ -70,11 +70,11 @@ function genCode() { return Math.random().toString(36).substring(2,8).toUpperCas
 // ── Access password ───────────────────────────────────────────────────────────
 // STEP: Change this to any password you want. Set the SAME value as the
 //       APP_PASSWORD secret in Firebase (see SETUP.md Step 9b).
-const APP_PASSWORD = "REPLACE_WITH_YOUR_PASSWORD";
+const APP_PASSWORD = process.env.REACT_APP_PASSWORD;
 
 // ── AI meal analysis — calls your Firebase Cloud Function proxy ───────────────
 // STEP: After deploying your Cloud Function, paste its URL below.
-const CLOUD_FN_URL = "REPLACE_WITH_YOUR_CLOUD_FUNCTION_URL";
+const CLOUD_FN_URL = process.env.REACT_APP_CLOUD_FN_URL;
 
 async function analyzeMeal(mealText) {
   const res = await fetch(CLOUD_FN_URL, {
